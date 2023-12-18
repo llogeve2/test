@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- http://web-info.univ-lemans.fr/~s2300746/projet/index.html -->
+<html lang="fr" class="fondpact">
+   <head>     
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <link href="index_css.css" rel="stylesheet" media="all"> 
+    </head>
+    <body class="imageBackHome">
+    <div>
+        <h1 class ="backtextTitre">
+            La réalité virtuelle
+        </h1>
+    </div>
+    <div>
+         <!-- Question 1 -->
+        <div class="question-main">
+            <h2 id="question1">
+                Qu'est-ce que la réalité virtuelle (RV) ?
+            </h2>
+            <p class="question1-text">
+                La réalité virtuelle est une technologie informatique qui permet de simuler numériquement un environnement à l'aide d'un ordinateur. Elle offre à l'utilisateur une expérience immersive en sollicitant ses sens tels que la vue, le toucher, l'ouïe, et parfois même l'odorat.
+            </p>
+        </div>
+        <!-- Question 2 -->
+        <div class="question-main">
+            <h2 id="question2">
+                Quels sont les principaux composants d'un système de réalité virtuelle ?
+            </h2>
+            <p>
+                Les principaux composants incluent un casque VR, des contrôleurs de mouvement, un système de suivi spatial, des capteurs de mouvement, et souvent un ordinateur puissant pour générer les images virtuelles.
+            </p>
+        </div>
+        <!-- Question 3 -->
+        <div class="question-main">
+            <h2 id="question3">
+                Comment fonctionne un casque de réalité virtuelle ?
+            </h2>
+            <p>
+                Un casque de réalité virtuelle utilise des écrans intégrés pour afficher des images en 3D devant les yeux de l'utilisateur. Les capteurs de mouvement du casque détectent les mouvements de la tête, offrant ainsi une expérience interactive.
+            </p>
+        </div>
+        <!-- Question 4 -->
+        <div class="question-main">
+            <h2 id="question4">
+                Quelles sont les applications courantes de la réalité virtuelle ?
+            </h2>
+            <p>
+                La réalité virtuelle est utilisée dans divers domaines, notamment les jeux vidéo, la formation professionnelle, la médecine, l'architecture, la simulation de vol, le tourisme virtuel, etc.
+            </p>
+        </div>
+        <!-- Question 5 -->
+        <div class="question-main">
+            <h2 id="question5">
+                Qu'est-ce que l'interaction en temps réel dans la réalité virtuelle ?
+            </h2>
+            <p>
+                L'interaction en temps réel permet à l'utilisateur de manipuler et de réagir à l'environnement virtuel instantanément, créant ainsi une expérience plus immersive.
+            </p>
+        </div>
+        <!-- Question 6 -->
+        <div class="question-main">
+            <h2 id="question6">
+                Quelle est la différence entre réalité virtuelle et réalité augmentée ?
+            </h2>
+            <p>
+                La réalité virtuelle plonge l'utilisateur dans un monde entièrement virtuel, tandis que la réalité augmentée superpose des éléments virtuels sur le monde réel.
+            </p>
+        </div>
+        <!-- Question 7 -->
+        <div class="question-main">
+            <h2 id="question7">
+                Quels sont les défis actuels de la réalité virtuelle ?
+            </h2>
+            <p>
+                Certains défis comprennent la résolution d'image, la latence, la simulation réaliste du toucher, et la réduction de la fatigue visuelle lors d'une utilisation prolongée.
+            </p>
+        </div>
+        <!-- Question 8 -->
+        <div class="question-main">
+            <h2 id="question8">
+                Qu'est-ce qu'une simulation de réalité virtuelle ?
+            </h2>
+            <p>
+                Une simulation de réalité virtuelle recrée des scénarios ou des environnements spécifiques pour des fins d'entraînement, d'éducation ou de test, offrant une expérience réaliste sans risque.
+            </p>
+        </div>
+        <!-- Question 9 -->
+        <div class="question-main">
+            <h2 id="question9">
+                Comment la réalité virtuelle est-elle utilisée dans le domaine médical ?
+            </h2>
+            <p>
+                La réalité virtuelle est utilisée pour la formation chirurgicale, la thérapie de rééducation, la gestion de la douleur, la visualisation de données médicales, et même la prévention des phobies.
+            </p>
+        </div>
+        <!-- Question 10 -->
+        <div class="question-main">
+            <h2 id="question10">
+                Quelles sont les tendances futures de la réalité virtuelle ?
+            </h2>
+            <p>
+                Les tendances futures incluent des améliorations dans la qualité graphique, des casques plus légers et plus confortables, une intégration accrue de l'intelligence artificielle, et une expansion continue dans divers secteurs.
+            </p>
+        </div>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a  href="./Meta-Quest-3.html">Meta Quest 3</a>
+            <a  href="./Apple-vision-pro.html">Apple vision Pro</a>
+        </div>
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                        <a href="#question1">VR?</a>
+                        <a href="#question2">de dans c'est quoi ?</a>
+                        <a href="#question3">comment ?</a>
+                        <a href="#question4">qu'elle application a utiliser ?</a>
+                        <a href="#question5">interaction en temps réel ?</a>
+                        <a href="#question6">réalité virtuelle et réalité augmentée ?</a>
+                        <a href="#question7">les défis actuels de la réalité virtuelle ?</a>
+                        <a href="#question8">simulation de réalité virtuelle ?</a>
+                        <a href="#question9">le domaine médical ?</a>
+                        <a href="#question10">et pour le future?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+
+</html>
