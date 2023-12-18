@@ -1,0 +1,246 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: serif, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 250%;
+}
+body{
+    position: absolute;
+    background-color: #000000;
+    padding-top: 50px; /* Ajustez la valeur en fonction de la hauteur de votre barre de recherche */
+
+}
+/* taille de la police qui ce gÃ¨re*/
+/*https://www.ionos.fr/digitalguide/sites-internet/web-design/police-de-caracteres-adaptatives-et-commandes-css/*/
+.backtextTitre{
+    background-color: rgb(83, 101, 112);
+    color: #000000;
+    opacity: 0.8;
+    border-radius: 3vh;
+    padding: 3%;
+    margin: 5% 25%;
+    text-shadow: 1px 1px 2px rgb(250, 2, 2),0 0 3px rgb(4, 2, 109);
+    /*decale de x,  y  floue de x pixel de couleur rouge /repÃ©tition argument prÃ©cÃ©dent */
+}
+div{
+    margin-bottom: 8em;
+}
+.question-main{
+    background-color:lightgray;
+    margin-right:10em;
+    margin-left:10em;
+    border-radius: 1em;
+    opacity: 0.9;
+    border: solid;
+    border-size: 2px;
+    border-color: gray;
+}
+
+h2 {
+    margin: 3% 20%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    padding: 3%;
+    border: solid;
+    border-size: 2px;
+    border-color: gray;
+    border-radius: 3vh;
+}
+
+p {
+    margin: 2% 15% ;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    border-radius: 3vh;
+    padding: 1%;
+}
+
+.imageBackHome {
+    background-image: url('https://cdn.futura-sciences.com/cdn-cgi/image/width=1920,quality=60,format=auto/sources/images/realite-virtuelle-VR.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;  /*https://www.futura-sciences.com/tech/definitions/technologie-realite-virtuelle-598/*/
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.backMeta {
+    background-color: #14687d;
+    /*background-image: url('https://about.fb.com/fr/wp-content/uploads/sites/12/2023/06/01_Hero-View.jpg');
+    background-repeat: no-repeat;   /* vue eclate https://fs.npstatic.com/userfiles/1799474/file/Meta-Quest-3_Exploded-View-w782.jpeg*/
+    /*background-attachment: fixed;  
+    background-size: cover;*/
+}
+.imageBackApple {
+    background-image: url(./appleimage1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;   /*image des puces du apple vision pro https://i0.wp.com/www.appletips.nl/wp-content/uploads/2023/06/Vision-Pro-m2-en-r1-chip.jpg?ssl=1*/
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.imageInArcticle{
+    margin-bottom: 2%;
+    max-width : 50em;
+    /*max-width : 600px;*/
+    height : auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 0%;
+    position: fixed;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 0%;
+    top: 0;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 6vh;
+    transition: background-color 0.3s;
+}
+
+.topnav a:hover {
+    background-color: #333;
+}
+
+.topnav .active {
+    background-color: #414345;
+}
+h1 {
+    text-align: center;
+    margin-top: 10vw; /* Ajustez la valeur selon vos préférences */
+}
+.navbar {
+    overflow: hidden;
+    width: 10%;
+    position: fixed;
+    top: 0;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropbtn {
+    font-size: 200%;
+    width:100%;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+}
+
+.dropdown:hover {
+    background-color: red;
+}
+
+.dropdown-content {/*initialise contenue cacher*/
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgb(192, 4, 4);
+    padding: 12px 16px;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {/*affiche contenue*/
+    display: block;
+}
+
+/* Ajoutez des règles media queries pour rendre la barre de navigation responsive */
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .topnav a {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+
+}
+.fondpact{
+    animation: fond 0.5s linear ;
+}
+
+@keyframes fond {
+    from {
+      opacity: 0.4;
+    }
+    to{
+        opacity: 1;
+    }
+  }
+
+
+  /* @media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) { */
+@media screen and (max-width: 65em){
+    .backtextTitre{
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 52em){
+    .backtextTitre{
+        margin-top: 15%;
+    }
+}
+@media screen and (max-width: 43em){
+    .backtextTitre{
+        margin-top: 23%;
+    }
+}
+@media screen and (orientation: portrait){
+    .backtextTitre{
+        margin-top: 13%;
+        font-size: 380%;
+    }
+    .backtextSousTitre{
+        font-size: 340%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+    }
+    .backtext{
+        font-size: 300%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+    .imageInArcticle{
+        margin-bottom: 5%;
+    }
+    .topnav a{
+        font-size: 140%;
+    }
+}
